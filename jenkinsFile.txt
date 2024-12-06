@@ -1,0 +1,22 @@
+node {  // Defines the workspace
+    stage('Build') {
+        steps {
+            echo 'Building...'
+            // Insert build steps here
+        }
+    }
+    
+    stage('Test') {
+        steps {
+            echo 'Testing...'
+            // Insert test steps here
+        }
+    }
+    
+    stage('Deploy') {
+        steps {
+            echo 'Deploying...'
+            // Insert deploy steps here
+        }
+    }
+}
